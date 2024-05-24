@@ -1,6 +1,6 @@
 const { Schema, Types } = require('mongoose');
 
-// Schema to create react model
+// Schema to create react type
 
 const reactSchema = new Schema({
     reactionId: {
@@ -30,4 +30,4 @@ const reactSchema = new Schema({
   }
 );
 
-module.exports = reactionSchema
+module.exports = reactSchema
