@@ -1,0 +1,24 @@
+{
+  "name": "18-nosql-social-network-api",
+  "version": "1.0.0",
+  "description": "social-network-api-build",
+  "main": "server.js",
+  "scripts": {
+    "test": "node",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kibarke/18-NoSQL-Social-Network-API.git"
+  },
+  "author": "kibarke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kibarke/18-NoSQL-Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/kibarke/18-NoSQL-Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  }
+}

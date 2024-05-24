@@ -3,7 +3,7 @@ const {
   getSinglePost,
   getPosts,
   createPost,
-} = require('../../controllers/postController');
+} = require('../../controllers/postControllers');
 
 router.route('/').get(getPosts).post(createPost);
 
